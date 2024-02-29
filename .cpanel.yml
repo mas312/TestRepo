@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ybrgukte/public_html   # Specify the deployment path
+    - export DEPLOYPATH=/home4/ybrgukte/public_html   # Specify the deployment path
     - /bin/git pull origin main                       # Pull the latest changes from the repository
     - /bin/npm install                                # Optionally, install npm dependencies
     - /bin/npm run build                              # Optionally, build your project
